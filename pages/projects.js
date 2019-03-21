@@ -1,5 +1,5 @@
 import { Navbar } from "../components/Navbar";
-import { Trail, config } from 'react-spring/renderprops';
+import { Trail, config } from 'react-spring/renderprops.cjs';
 
 const projectsData = [
     {

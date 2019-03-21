@@ -1,5 +1,5 @@
 import { Navbar } from "../components/Navbar";
-import { Trail } from 'react-spring/renderprops';
+import { Trail } from 'react-spring/renderprops.cjs';
 
 const skillsImages = [
     {
