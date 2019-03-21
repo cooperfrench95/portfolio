@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|PT+Sans+Narrow|Unica+One');
+
+@media (min-width: 910px) and (max-width: 1092px) {
+    .skillTrailImage {
+        width: 75px !important;
+        height: 75px !important;
+    }
+}
+
+@media (max-width: 910px) and (min-width: 620px) {
+    .homeH1 {
+        font-size: 100pt !important;
+    }
+    .skillTrailImage {
+        width: 60px !important;
+        height: 60px !important;
+    }
+    .skillTrailItemName {
+        font-size: 12pt !important;
+    }
+}
+
+@media (max-width: 619px) and (min-width: 400px) {
+    .homeH1 {
+        font-size: 65pt !important;
+    }
+    .skillTrailImage {
+        width: 50px !important;
+        height: 50px !important;
+        margin: 10px !important;
+    }
+    .skillTrailItemName {
+        font-size: 12pt !important;
+    }
+    .skillsDiv {
+        width: 80vw !important;
+    }
+}
+
+@media (max-width: 399px) {
+    .homeH1 {
+        font-size: 50pt !important;
+    }
+    .skillTrailImage {
+        width: 40px !important;
+        height: 40px !important;
+        margin: 10px !important;
+    }
+    .skillTrailItemName {
+        font-size: 8pt !important;
+        white-space: wrap;
+    }
+    .skillsDiv {
+        width: 95vw !important;
+        max-height: 75vh;
+        align-content: space-around !important;
+    }
+}
+
+@media (max-width: 619px) {
+    .projectContainer {
+        margin-top: 50px;
+    }
+    .homeH1 {
+        font-size: 50pt !important;
+    }
+    .skillsLink {
+        font-size: 12pt;
+        padding: 10px !important;
+    }
+    .navbarDiv {
+        flex-direction: row !important;
+        top: 5% !important;
+        left: 50% !important;
+        width: 100vw !important;
+        height: 10vh !important;
+        z-index: 1;
+        transform: translate(-50%, -50%) !important;
+        border-bottom: 1px solid navy;
+    }
+    .navbarInnerDiv {
+        flex-direction: row !important;
+        height: 10vh !important;
+        width: 80vw !important;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .homeDiv {
+        left: 5% !important;
+    }
+}
+
+@media (max-width: 619px) {
+    .projectInnerDiv {
+        flex: unset !important;
+        flex-wrap: nowrap !important;
+        flex-direction: row !important;
+    }
+    .projectTrailImage {
+        max-width: 50vw !important;
+    }
+} 
+
+body {
+    background-color: rgb(19, 65, 149);
+}
+
+.skillsLink {
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Unica One', sans-serif;
+    background: transparent;
+    padding: 20px;
+}
+
+.activeLink {
+    color: navy;
+}
+
+.skillsLink:hover {
+    background: rgb(0, 1, 56);
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+}
+
+.navbarDiv {
+    position: fixed;
+    top: 50%;
+    left: 3%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    transform: translate(-20%, -50%);
+    width: 15vw;
+    flex-direction: column;
+}
+
+.skyDiv {
+    position: fixed;
+    left: 30%;
+    height: 100vh;
+    width: 70vw;
+}
+
+.navbarInnerDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 50vh;
+    width: 100%;
+}
+
+.homeDiv {
+    position: fixed;
+    left: 20%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+.homeH1 {
+    font-size: 25vh;
+    font-family: 'Oswald', sans-serif;
+    color: rgba(255, 255, 255, 0.972);
+    padding: 20px;
+}
+
+.homeH2 {
+    font-size: 24pt;
+    font-family: 'Unica One', sans-serif;
+    color: white;
+    padding: 20px;
+    margin-top: 5px;
+}
+
+.ticker {
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.aboutPageMainDiv {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+.aboutPageTextDiv {
+    max-width: 70vw;
+}
+
+.aboutPageTitle {
+    font-family: "Oswald",sans-serif;
+    font-size: 15vh;
+    color: white;
+}
+
+.aboutPageTextP {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 16pt;
+    color: white;
+}
+
+.skillsDiv {
+    display: flex;
+    overflow: hidden;
+    width: 60vw;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-between;
+}
+
+.skillsPageTitleDiv {
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+}
+
+.skillsPageTitle {
+    font-family: "Oswald",sans-serif;
+    font-size: 15vh;
+    color: rgba(0, 0, 63, 0.972);
+    text-align: center;
+    width: 100%;
+}
+
+.skillTrailImage {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    object-fit: contain;
+}
+
+.eachSkillDiv {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.eachSkillDiv:hover {
+    background: lightskyblue;
+}
+
+.skillTrailItemName {
+    font-family: "Oswald", sans-serif;
+    font-size: 12pt;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.projectContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 80vw;
+}
+
+.projectTrailImage {
+    width: 100%;
+    max-height: 20vh;
+}
+
+.projectTrailImage:hover {
+    filter: blur(5px);
+}
+
+.projectInnerDiv {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.projectInnerDiv:hover {
+    background-color: lightskyblue;
+}
+
+.projectInnerDiv:hover .projectTrailTitle {
+    color: black;
+}
+
+.projectInfoDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.projectTrailTitle {
+    text-align: center;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.githubLinkImage {
+    width: 50px;
+}
+
+.githubLink {
+    flex: 1;
+}
+
+.githubAndHostedDiv {
+    display: flex;
+}
+
+.links a{
+    margin: 50px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+.linksPageImage {
+    flex: 1;
+    max-width: 20vw;
+}

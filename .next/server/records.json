@@ -1,0 +1,47 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "multi private-next-pages/about.js": 0,
+      "multi private-next-pages/index.js": 1,
+      "multi private-next-pages/links.js": 2,
+      "multi private-next-pages/projects.js": 3,
+      "multi private-next-pages/skills.js": 4,
+      "multi next/dist/pages/_app": 5,
+      "multi next/dist/pages/_error": 6,
+      "multi next/dist/pages/_document": 7
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7
+    }
+  },
+  "chunks": {
+    "byName": {
+      "static/Bh6dnxq3TSNfGGPSMBC80/pages/_app.js": 0,
+      "static/Bh6dnxq3TSNfGGPSMBC80/pages/_document.js": 1,
+      "static/Bh6dnxq3TSNfGGPSMBC80/pages/_error.js": 2,
+      "static/Bh6dnxq3TSNfGGPSMBC80/pages/about.js": 3,
+      "static/Bh6dnxq3TSNfGGPSMBC80/pages/index.js": 4,
+      "static/Bh6dnxq3TSNfGGPSMBC80/pages/links.js": 5,
+      "static/Bh6dnxq3TSNfGGPSMBC80/pages/projects.js": 6,
+      "static/Bh6dnxq3TSNfGGPSMBC80/pages/skills.js": 7
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+}
